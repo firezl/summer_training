@@ -69,7 +69,7 @@ Command Line Interface (CLI)，中文翻译是命令行交互接口。这是一�
   ![boxed](./img/box_ascii_draw.png)
 
 
-- 目录结构 - 可增加新文件，此目录下所有文件是批改所需，请不要改动文件名
+- 目录结构
   ```
     GraphProject/main.c
                  search.c
