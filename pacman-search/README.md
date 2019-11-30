@@ -7,9 +7,9 @@
 ## 如何执行
 首先你需要安装linux，建议是Ubuntu。然后你需要在终端执行以下命令
 ```
-sudo apt install python python-pip
+sudo apt install python python3-pip
 sudo apt install python-minimal python-tk
-sudo pip install virtualenv numpy tensorflow
+pip3 install virtualenv numpy tensorflow
 ```
 然后进入每一个项目阶段的文件夹执行
 ```
