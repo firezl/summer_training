@@ -1,14 +1,14 @@
 object = main.o stats.o search.o
 search-cli: $(object)
-	cc -o search-cli $(object)
+	gcc -o search-cli $(object) -std=c99
 
 main.o: main.c stats.h search.h
-	cc -c main.c
+	gcc -c main.c -std=c99
 
 stats.o: stats.c search.h
-	cc -c stats.c
+	gcc -c stats.c -std=c99
 
 search.o: search.h
-	cc -c search.c
+	gcc -c search.c -std=c99
 clean:
-	-rm $(object)
+	rm $(object)
