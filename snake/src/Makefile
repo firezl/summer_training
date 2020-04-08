@@ -1,5 +1,5 @@
 file_test: file.c file_test.c
-	gcc file.c file_test.c -o file_test.out -std=c99
+	gcc file.c file_test.c game.c -o file_test.out -std=c99
 game_test: game.c game_test.c
 	gcc game.c game_test.c -o game_test.out -std=c99
 game: file.c ai.c view.c game.c main.c
